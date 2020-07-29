@@ -1,5 +1,5 @@
 import unittest
-from problem3_revised import findLCA, Node
+from problem3 import findLCA, Node
 
 
 class TestProblem3(unittest.TestCase):

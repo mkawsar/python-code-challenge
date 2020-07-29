@@ -12,7 +12,6 @@ class Person(object):
         return ''.format(self.first_name, self.last_name)
 
 
-
 def print_depth(my_dict, result, depth=1):
     # Search items in the dictionary
     for key, value in my_dict.items():

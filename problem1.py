@@ -7,7 +7,6 @@ def print_depth(my_dict, result, depth=1):
         if isinstance(value, dict):
             # Depth increments
             print_depth(value, result, depth + 1)
-    
 
 
 if __name__ == "__main__":
